@@ -1,0 +1,13 @@
+I have turned cuda off by default in the CMakeLists.txt file, i.e.:
+option(BUILD_CUDA_LIB "Build CUDA library" OFF)
+mfallon
+
+
+
+=== README FROM V1.6.11 IN ENVOY CODEBASE ===
+
+REQUIRES 
+libgtest-dev
+libhd5-lam-dev
+octave3.2
+octave3.2-headers
